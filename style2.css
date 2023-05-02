@@ -49,18 +49,6 @@ a{
     color: white;
 }
 
-.tblheader{
-    border: 0;
-    width: 100;
-    text-align: center;
-}
-
-.tbllogo{
-    height: 89;
-    text-align: left;
-
-}
-
 .logoescrita{
     text-align: center;
 }
@@ -130,7 +118,6 @@ a{
 
 #logo{
     background-position: left;
-    text-align: top;
     display: inline-block;
 }
 
@@ -152,28 +139,6 @@ a{
     justify-content: center;
     align-items: center;
     padding: 2px;
-}
-
-
-.fzdsolar{
-    height: 180%;
-    width: 180%;
-    justify-content: left;
-    align-items: left;
-}
-
-.fzdbiogas{
-    height: 50%;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-}
-
-.sollover{
-    height: 90%;
-    width: 90%;
-    justify-content: right;
-    align-items: right;
 }
 
 .Logostable{
