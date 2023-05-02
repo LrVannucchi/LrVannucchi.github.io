@@ -1,0 +1,231 @@
+body{
+    background-color: #29b1b1;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+hr{
+    height: 8px;
+    color: #aa77bc;
+    background-color: #aa77bc;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.tblheader{
+    border: 0;
+    width: 100;
+    text-align: center;
+}
+
+.tbllogo{
+    height: 89;
+    text-align: left;
+
+}
+
+.logoescrita{
+    text-align: center;
+}
+
+.origo{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.logoprincipal{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+.imgfazendasolar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.origoenergia{
+    display: flex;
+    text-align: center;
+    padding: 10%;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgfazenda{
+    height: 35%;
+    width: 35%;
+}
+
+.imgfazendabgs{
+    height: 38%;
+    width: 37%;
+}
+
+.vdofazendaslr{
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 75%;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 40%; 
+    height: 10%;
+    
+}
+
+.conhecimento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    background-position: left;
+    text-align: top;
+    display: inline-block;
+}
+
+#videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.saibamais{
+    background-color: #aa77bc;
+    color:white
+
+}
+
+.videosSLV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+
+.fzdsolar{
+    height: 180%;
+    width: 180%;
+    justify-content: left;
+    align-items: left;
+}
+
+.fzdbiogas{
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sollover{
+    height: 90%;
+    width: 90%;
+    justify-content: right;
+    align-items: right;
+}
+
+.Logostable{
+    height: 400px;
+    width: 100%;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logostable:hover{
+    outline:  double rgba(185, 15, 197, 0.795) ;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 15px;
+    padding: 10px 35px;
+    border: 2px solid #aa77bc;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+
+.btn:hover{
+    color:white
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #aa77bc;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    transform: scaleY(0);
+}
+
+.btn:hover::before{
+    transform: scaleY(1);
+}
