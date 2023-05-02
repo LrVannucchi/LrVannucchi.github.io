@@ -156,6 +156,10 @@ table{
     outline:  double rgba(185, 15, 197, 0.795) ;
 }
 
+.fundo{
+    background-color: #fff;
+}
+
 .btn{
     display: block;
     text-decoration: none;
